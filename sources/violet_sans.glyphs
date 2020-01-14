@@ -1,14 +1,17 @@
 {
 .appVersion = "1271";
-copyright = "Copyright 2019 Violet Sans Calvin Waterman ";
+DisplayStrings = (
+S
+);
+copyright = "Copyright 2019 The Violet Sans Project Authors (https://github.com/violetoffice/violet_sans)";
 customParameters = (
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
 {
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
 name = fsType;
@@ -20,7 +23,7 @@ name = blueScale;
 value = 0.06196;
 }
 );
-date = "2019-12-10 22:33:41 +0000";
+date = "2020-01-13 23:56:50 +0000";
 designer = "Calvin Waterman";
 designerURL = www.calvinwaterman.com;
 disablesAutomaticAlignment = 1;
@@ -2425,7 +2428,7 @@ unicode = 0156;
 },
 {
 glyphname = S;
-lastChange = "2019-11-06 01:48:11 +0000";
+lastChange = "2020-01-13 23:57:58 +0000";
 layers = (
 {
 layerId = "800095D7-3F7A-4DA4-A19A-FCDA22F72CA5";
@@ -2571,20 +2574,16 @@ unicode = 0218;
 },
 {
 glyphname = Germandbls;
-lastChange = "2019-11-26 02:17:58 +0000";
+lastChange = "2020-01-13 23:59:07 +0000";
 layers = (
 {
 components = (
 {
-name = S;
-transform = "{1, 0, 0, 1, 636, 0}";
-},
-{
-name = S;
+name = germandbls;
 }
 );
 layerId = "800095D7-3F7A-4DA4-A19A-FCDA22F72CA5";
-width = 1313;
+width = 559;
 }
 );
 leftKerningGroup = S;
@@ -16152,5 +16151,5 @@ manufacturer = "Violet Office";
 manufacturerURL = www.violetoffice.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 13;
+versionMinor = 14;
 }

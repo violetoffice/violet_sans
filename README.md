@@ -13,4 +13,4 @@ Violet Sans finds harmony in disparate forms, at once sharp and aggressive it ca
 
 To contribute, see https://github.com/violetoffice/violet_sans
 
-
+Note: Hinting is corrected for Google Fonts by using by using the `gftools fix-hinting` command. More info at: https://github.com/googlefonts/gftools
